@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+}
+h1{
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #form{
+            display: flex;
+            justify-content: center;
+            background-color: lightblue;
+            margin: 25px 40%;
+            padding: 20px;
+            justify-content: center;
+        }
+        input{
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Pick a News Source for Latest Business News</h1>
+    </div>
+    <div id="form">
+        <form action="/newsource" method="post">
+            <input type="radio" id="nytimes" name="source" value="nytimes"><label for="nytimes">NY Times</label>
+            <br>
+            <input type="radio" id="theonion" name="source" value="theonion"><label for="theonion">The Onion</label>
+            <br>
+            <input type="radio" id="nbc" name="source" value="nbc"><label for="nbc">NBC News</label>
+            <br>
+            <input type="radio" id="ap" name="source" value="ap"><label for="ap">AP News</label>
+            <br>
+            <input type="radio" id="cnbc" name="source" value="cnbc"><label for="cnbc">CNBC News</label>
+            <br>
+            <input type="radio" id="bostonglobe" name="source" value="bostonglobe"><label for="bostonglobe">Boston Globe</label>
+            <br>
+            <input type="radio" id="us" name="source" value="us"><label for="us">US News</label>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+</html>
